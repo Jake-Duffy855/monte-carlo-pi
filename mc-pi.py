@@ -30,7 +30,7 @@ def approx_pi_with_plot(n, seed = 0):
 
         plt.plot(inside_x, inside_y, 'bo', outside_x, outside_y, 'go')
         plt.axis([-0.03, 1.03, -0.03, 1.03])
-        plt.xlabel("Pi ~ {}, Total Dots: {}, Dots Inside {}".format(pi, inside, total))
+        plt.xlabel("Pi ~ {}, Total Dots: {}, Dots Inside {}".format(pi, total, inside))
         plt.show()
         
         return pi
